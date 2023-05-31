@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="../css/deberCalculadora.css">
+    <script src="../js/deberCalculadora.js">
+
+    </script>
+
+
+
+</head>
+
+<body>
+
+    <div class="pantalla">
+        <h1>Calculadora</h1>
+    </div>
+
+
+    <label id="resultado"></label>
+
+
+
+
+    <table class="tablero">
+        <tr>
+            <td><button onclick="agregarCaracter('7')">7</button></td>
+            <td><button onclick="agregarCaracter('8')">8</button></td>
+            <td><button onclick="agregarCaracter('9')">9</button></td>
+            <td><button onclick="agregarCaracter('/')">/</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="agregarCaracter('4')">4</button></td>
+            <td><button onclick="agregarCaracter('5')">5</button></td>
+            <td><button onclick="agregarCaracter('6')">6</button></td>
+            <td><button onclick="agregarCaracter('*')">*</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="agregarCaracter('1')">1</button></td>
+            <td><button onclick="agregarCaracter('2')">2</button></td>
+            <td><button onclick="agregarCaracter('3')">3</button></td>
+            <td><button onclick="agregarCaracter('-')">-</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="agregarCaracter('0')">0</button></td>
+            <td><button onclick="agregarCaracter('+')">+</button></td>
+            <td><button onclick="calcular()">=</button></td>
+        </tr>
+
+
+    </table>
+
+
+</body>
+
+</html>
